@@ -50,11 +50,11 @@ class LaravelLivewireTablesServiceProvider extends ServiceProvider
 
             $this->publishes([
                 __DIR__.'/../config/livewire-tables-kaito.php' => config_path('livewire-tables-kaito.php'),
-            ], 'livewire-tables-config');
+            ], 'livewire-tables-config-kaito');
 
             $this->publishes([
                 __DIR__.'/../resources/views' => resource_path('views/vendor/livewire-tables-kaito'),
-            ], 'livewire-tables-views');
+            ], 'livewire-tables-views-kaito');
 
             $this->publishes([
                 __DIR__.'/../resources/js' => public_path('vendor/rappasoft/livewire-tables/js'),
