@@ -17,7 +17,7 @@ class LaravelLivewireTablesServiceProvider extends ServiceProvider
         AboutCommand::add('Rappasoft Laravel Livewire Tables', fn () => ['Version' => '3.2.4']);
 
         $this->mergeConfigFrom(
-            __DIR__.'/../config/livewire-tables.php', 'livewire-tables'
+            __DIR__.'/../config/livewire-tables-kaito.php', 'livewire-tables-kaito'
         );
 
         // Load Default Translations
@@ -27,14 +27,14 @@ class LaravelLivewireTablesServiceProvider extends ServiceProvider
 
         // Override if Published
         $this->loadJsonTranslationsFrom(
-            $this->app->langPath('vendor/livewire-tables')
+            $this->app->langPath('vendor/livewire-tables-kaito')
         );
 
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'livewire-tables');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'livewire-tables-kaito');
 
         $this->consoleCommands();
 
-        if (config('livewire-tables.inject_core_assets_enabled') || config('livewire-tables.inject_third_party_assets_enabled') || config('livewire-tables.enable_blade_directives')) {
+        if (config('livewire-tables-kaito.inject_core_assets_enabled') || config('livewire-tables-kaito.inject_third_party_assets_enabled') || config('livewire-tables-kaito.enable_blade_directives')) {
             (new RappasoftFrontendAssets)->boot();
         }
 
@@ -45,15 +45,15 @@ class LaravelLivewireTablesServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
 
             $this->publishes([
-                __DIR__.'/../resources/lang' => $this->app->langPath('vendor/livewire-tables'),
+                __DIR__.'/../resources/lang' => $this->app->langPath('vendor/livewire-tables-kaito'),
             ], 'livewire-tables-translations');
 
             $this->publishes([
-                __DIR__.'/../config/livewire-tables.php' => config_path('livewire-tables.php'),
+                __DIR__.'/../config/livewire-tables-kaito.php' => config_path('livewire-tables-kaito.php'),
             ], 'livewire-tables-config');
 
             $this->publishes([
-                __DIR__.'/../resources/views' => resource_path('views/vendor/livewire-tables'),
+                __DIR__.'/../resources/views' => resource_path('views/vendor/livewire-tables-kaito'),
             ], 'livewire-tables-views');
 
             $this->publishes([
@@ -70,9 +70,9 @@ class LaravelLivewireTablesServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/livewire-tables.php', 'livewire-tables'
+            __DIR__.'/../config/livewire-tables-kaito.php', 'livewire-tables-kaito'
         );
-        if (config('livewire-tables.inject_core_assets_enabled') || config('livewire-tables.inject_third_party_assets_enabled') || config('livewire-tables.enable_blade_directives')) {
+        if (config('livewire-tables-kaito.inject_core_assets_enabled') || config('livewire-tables-kaito.inject_third_party_assets_enabled') || config('livewire-tables-kaito.enable_blade_directives')) {
             (new RappasoftFrontendAssets)->register();
             ComponentHookRegistry::register(AutoInjectRappasoftAssets::class);
         }
