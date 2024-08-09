@@ -23,7 +23,7 @@ trait WithCustomisations
      */
     public function customView(): string
     {
-        return 'livewire-tables::stubs.custom';
+        return 'livewire-tables-kaito::stubs.custom';
     }
 
     /**

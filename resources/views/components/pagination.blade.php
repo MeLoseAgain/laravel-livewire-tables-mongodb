@@ -42,7 +42,7 @@
                 </div>
 
                 @if ($component->paginationIsEnabled())
-                    {{ $rows->links('livewire-tables::specific.tailwind.'.(!$component->isPaginationMethod('standard') ? 'simple-' : '').'pagination') }}
+                    {{ $rows->links('livewire-tables-kaito::specific.tailwind.'.(!$component->isPaginationMethod('standard') ? 'simple-' : '').'pagination') }}
                 @endif
             </div>
         @endif
@@ -53,7 +53,7 @@
             @if ($component->paginationIsEnabled() && $component->isPaginationMethod('standard') && $rows->lastPage() > 1)
                 <div class="row mt-3">
                     <div class="col-12 col-md-6 overflow-auto">
-                        {{ $rows->links('livewire-tables::specific.bootstrap-4.pagination') }}
+                        {{ $rows->links('livewire-tables-kaito::specific.bootstrap-4.pagination') }}
                     </div>
 
                     <div class="col-12 col-md-6 text-center text-md-right text-muted">
@@ -71,7 +71,7 @@
             @elseif ($component->paginationIsEnabled() && $component->isPaginationMethod('simple'))
                 <div class="row mt-3">
                     <div class="col-12 col-md-6 overflow-auto">
-                        {{ $rows->links('livewire-tables::specific.bootstrap-4.simple-pagination') }}
+                        {{ $rows->links('livewire-tables-kaito::specific.bootstrap-4.simple-pagination') }}
                     </div>
 
                     <div class="col-12 col-md-6 text-center text-md-right text-muted">
@@ -86,7 +86,7 @@
             @elseif ($component->paginationIsEnabled() && $component->isPaginationMethod('cursor'))
                 <div class="row mt-3">
                     <div class="col-12 col-md-6 overflow-auto">
-                        {{ $rows->links('livewire-tables::specific.bootstrap-4.simple-pagination') }}
+                        {{ $rows->links('livewire-tables-kaito::specific.bootstrap-4.simple-pagination') }}
                     </div>
                 </div>
             @else
@@ -106,7 +106,7 @@
             @if ($component->paginationIsEnabled() && $component->isPaginationMethod('standard') && $rows->lastPage() > 1)
                 <div class="row mt-3">
                     <div class="col-12 col-md-6 overflow-auto">
-                        {{ $rows->links('livewire-tables::specific.bootstrap-4.pagination') }}
+                        {{ $rows->links('livewire-tables-kaito::specific.bootstrap-4.pagination') }}
                     </div>
                     <div class="col-12 col-md-6 text-center text-md-end text-muted">
                         @if($component->showPaginationDetails())
@@ -123,7 +123,7 @@
             @elseif ($component->paginationIsEnabled() && $component->isPaginationMethod('simple'))
                 <div class="row mt-3">
                     <div class="col-12 col-md-6 overflow-auto">
-                        {{ $rows->links('livewire-tables::specific.bootstrap-4.simple-pagination') }}
+                        {{ $rows->links('livewire-tables-kaito::specific.bootstrap-4.simple-pagination') }}
                     </div>
                     <div class="col-12 col-md-6 text-center text-md-end text-muted">
                         @if($component->showPaginationDetails())
@@ -137,7 +137,7 @@
             @elseif ($component->paginationIsEnabled() && $component->isPaginationMethod('cursor'))
                 <div class="row mt-3">
                     <div class="col-12 col-md-6 overflow-auto">
-                        {{ $rows->links('livewire-tables::specific.bootstrap-4.simple-pagination') }}
+                        {{ $rows->links('livewire-tables-kaito::specific.bootstrap-4.simple-pagination') }}
                     </div>
                 </div>
             @else

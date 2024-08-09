@@ -19,7 +19,7 @@ class ColorColumn extends Column
 
     public ?object $colorCallback = null;
 
-    protected string $view = 'livewire-tables::includes.columns.color';
+    protected string $view = 'livewire-tables-kaito::includes.columns.color';
 
     public function __construct(string $title, ?string $from = null)
     {

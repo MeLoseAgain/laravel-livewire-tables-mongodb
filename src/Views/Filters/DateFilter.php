@@ -11,7 +11,7 @@ class DateFilter extends Filter
     use HasConfig,
         IsStringFilter;
 
-    protected string $view = 'livewire-tables::components.tools.filters.date';
+    protected string $view = 'livewire-tables-kaito::components.tools.filters.date';
 
     protected string $configPath = 'livewire-tables.dateFilter.defaultConfig';
 

@@ -10,7 +10,7 @@ class DateRangeFilter extends Filter
     use HasOptions,
         HasConfig;
 
-    protected string $view = 'livewire-tables::components.tools.filters.date-range';
+    protected string $view = 'livewire-tables-kaito::components.tools.filters.date-range';
 
     protected string $configPath = 'livewire-tables.dateRange.defaultConfig';
 

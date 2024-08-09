@@ -10,7 +10,7 @@ class MultiSelectFilter extends Filter
     use HasOptions,
         IsArrayFilter;
 
-    protected string $view = 'livewire-tables::components.tools.filters.multi-select';
+    protected string $view = 'livewire-tables-kaito::components.tools.filters.multi-select';
 
     protected string $configPath = 'livewire-tables.multiSelectFilter.defaultConfig';
 

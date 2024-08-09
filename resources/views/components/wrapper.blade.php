@@ -6,8 +6,8 @@
         @if ($component->isFilterLayoutSlideDown()) wire:ignore.self @endif>
 
         <div x-data="reorderFunction($wire, '{{ $component->getTableAttributes()['id'] }}', '{{ $component->getPrimaryKey() }}')">
-            @include('livewire-tables::includes.debug')
-            @include('livewire-tables::includes.offline')
+            @include('livewire-tables-kaito::includes.debug')
+            @include('livewire-tables-kaito::includes.offline')
 
             {{ $slot }}
         </div>

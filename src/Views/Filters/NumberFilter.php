@@ -9,7 +9,7 @@ class NumberFilter extends Filter
 {
     use IsStringFilter;
 
-    protected string $view = 'livewire-tables::components.tools.filters.number';
+    protected string $view = 'livewire-tables-kaito::components.tools.filters.number';
 
     public function validate(mixed $value): float|int|bool
     {

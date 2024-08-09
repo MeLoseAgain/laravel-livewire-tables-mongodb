@@ -9,7 +9,7 @@ class NumberRangeFilter extends Filter
 {
     use HasOptions;
 
-    protected string $view = 'livewire-tables::components.tools.filters.number-range';
+    protected string $view = 'livewire-tables-kaito::components.tools.filters.number-range';
 
     protected string $configPath = 'livewire-tables.numberRange.defaultConfig';
 

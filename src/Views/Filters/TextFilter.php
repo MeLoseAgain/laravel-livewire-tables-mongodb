@@ -9,7 +9,7 @@ class TextFilter extends Filter
 {
     use IsStringFilter;
 
-    protected string $view = 'livewire-tables::components.tools.filters.text-field';
+    protected string $view = 'livewire-tables-kaito::components.tools.filters.text-field';
 
     public function validate(string $value): string|bool
     {

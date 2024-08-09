@@ -10,7 +10,7 @@ class MultiSelectDropdownFilter extends Filter
     use HasOptions,
         IsArrayFilter;
 
-    protected string $view = 'livewire-tables::components.tools.filters.multi-select-dropdown';
+    protected string $view = 'livewire-tables-kaito::components.tools.filters.multi-select-dropdown';
 
     protected string $configPath = 'livewire-tables.multiSelectDropdownFilter.defaultConfig';
 

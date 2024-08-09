@@ -8,7 +8,7 @@
 @endphp
 
 @if ($component->bulkActionsAreEnabled() && $component->hasBulkActions())
-    <x-livewire-tables::table.td.plain wire:key="{{ $tableName }}-tbody-td-bulk-actions-td-{{ $row->{$this->getPrimaryKey()} }}" :displayMinimisedOnReorder="true"  :$customAttributes>
+    <x-livewire-tables-kaito::table.td.plain wire:key="{{ $tableName }}-tbody-td-bulk-actions-td-{{ $row->{$this->getPrimaryKey()} }}" :displayMinimisedOnReorder="true"  :$customAttributes>
         <div @class([
             'inline-flex rounded-md shadow-sm' => $theme === 'tailwind',
             'form-check' => $theme === 'bootstrap-5',
@@ -29,5 +29,5 @@
                 }}
             />
         </div>
-    </x-livewire-tables::table.td.plain>
+    </x-livewire-tables-kaito::table.td.plain>
 @endif

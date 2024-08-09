@@ -22,15 +22,15 @@
         </div>
         
         @if ($component->reorderIsEnabled())
-            <x-livewire-tables::tools.toolbar.items.reorder-buttons />
+            <x-livewire-tables-kaito::tools.toolbar.items.reorder-buttons />
         @endif
         
         @if ($component->searchIsEnabled() && $component->searchVisibilityIsEnabled())
-            <x-livewire-tables::tools.toolbar.items.search-field />
+            <x-livewire-tables-kaito::tools.toolbar.items.search-field />
         @endif
 
         @if ($component->filtersAreEnabled() && $component->filtersVisibilityIsEnabled() && $component->hasVisibleFilters())
-            <x-livewire-tables::tools.toolbar.items.filter-button :$filterGenericData />
+            <x-livewire-tables-kaito::tools.toolbar.items.filter-button :$filterGenericData />
         @endif
 
         @if ($component->hasConfigurableAreaFor('toolbar-left-end'))
@@ -51,15 +51,15 @@
         @endif
 
         @if ($component->showBulkActionsDropdownAlpine())
-            <x-livewire-tables::tools.toolbar.items.bulk-actions />
+            <x-livewire-tables-kaito::tools.toolbar.items.bulk-actions />
         @endif
         
         @if ($component->columnSelectIsEnabled())
-            <x-livewire-tables::tools.toolbar.items.column-select /> 
+            <x-livewire-tables-kaito::tools.toolbar.items.column-select /> 
         @endif
 
         @if ($component->paginationIsEnabled() && $component->perPageVisibilityIsEnabled())
-            <x-livewire-tables::tools.toolbar.items.pagination-dropdown /> 
+            <x-livewire-tables-kaito::tools.toolbar.items.pagination-dropdown /> 
         @endif
 
         @if ($component->hasConfigurableAreaFor('toolbar-right-end'))
@@ -73,7 +73,7 @@
     $component->hasVisibleFilters() &&
     $component->isFilterLayoutSlideDown()
 )
-    <x-livewire-tables::tools.toolbar.items.filter-slidedown :$filterGenericData />
+    <x-livewire-tables-kaito::tools.toolbar.items.filter-slidedown :$filterGenericData />
 @endif
 
 
