@@ -1,6 +1,6 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
 use MongoDB\Laravel\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -10,8 +10,8 @@ use Illuminate\Pagination\CursorPaginator;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Collection;
-use Rappasoft\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
-use Rappasoft\LaravelLivewireTables\Views\Column;
+use KaitoSaikyo\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
+use KaitoSaikyo\LaravelLivewireTables\Views\Column;
 
 trait WithData
 {

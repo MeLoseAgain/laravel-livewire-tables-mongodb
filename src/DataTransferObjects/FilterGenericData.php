@@ -1,8 +1,8 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\DataTransferObjects;
+namespace KaitoSaikyo\LaravelLivewireTables\DataTransferObjects;
 
-use Rappasoft\LaravelLivewireTables\DataTableComponent;
+use KaitoSaikyo\LaravelLivewireTables\DataTableComponent;
 
 class FilterGenericData
 {

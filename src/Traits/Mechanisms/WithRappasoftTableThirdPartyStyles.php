@@ -1,6 +1,6 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits\Mechanisms;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits\Mechanisms;
 
 trait WithRappasoftTableThirdPartyStyles
 {
@@ -31,7 +31,7 @@ trait WithRappasoftTableThirdPartyStyles
      */
     public static function rappasoftTableThirdPartyStyles(mixed $expression): string
     {
-        return '{!! \Rappasoft\LaravelLivewireTables\Mechanisms\RappasoftFrontendAssets::tableThirdPartyStyles('.$expression.') !!}';
+        return '{!! \KaitoSaikyo\LaravelLivewireTables\Mechanisms\RappasoftFrontendAssets::tableThirdPartyStyles('.$expression.') !!}';
     }
 
     public static function tableThirdPartyStyles(array $options = []): array|string|null

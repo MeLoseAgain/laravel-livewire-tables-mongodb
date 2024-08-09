@@ -1,11 +1,11 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
 use Illuminate\Support\Collection;
-use Rappasoft\LaravelLivewireTables\Exceptions\NoColumnsException;
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\ColumnConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\ColumnHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Exceptions\NoColumnsException;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\ColumnConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\ColumnHelpers;
 
 trait WithColumns
 {

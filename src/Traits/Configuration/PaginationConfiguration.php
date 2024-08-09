@@ -1,8 +1,8 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits\Configuration;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits\Configuration;
 
-use Rappasoft\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
+use KaitoSaikyo\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
 
 trait PaginationConfiguration
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits\Helpers;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits\Helpers;
 
-use Rappasoft\LaravelLivewireTables\Views\Filter;
+use KaitoSaikyo\LaravelLivewireTables\Views\Filter;
 
 trait FilterHelpers
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits\Filters;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits\Filters;
 
-use Rappasoft\LaravelLivewireTables\Views\{Column,Filter};
+use KaitoSaikyo\LaravelLivewireTables\Views\{Column,Filter};
 
 trait HasCustomPosition
 {

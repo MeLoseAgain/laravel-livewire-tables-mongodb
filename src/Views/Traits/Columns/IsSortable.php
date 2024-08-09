@@ -1,10 +1,10 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits\Columns;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits\Columns;
 
 use Closure;
-use Rappasoft\LaravelLivewireTables\DataTableComponent;
-use Rappasoft\LaravelLivewireTables\Views\{Column,Filter};
+use KaitoSaikyo\LaravelLivewireTables\DataTableComponent;
+use KaitoSaikyo\LaravelLivewireTables\Views\{Column,Filter};
 
 trait IsSortable
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits\Helpers;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits\Helpers;
 
 use Illuminate\Support\Collection;
-use Rappasoft\LaravelLivewireTables\Views\Column;
+use KaitoSaikyo\LaravelLivewireTables\Views\Column;
 
 trait ColumnSelectHelpers
 {

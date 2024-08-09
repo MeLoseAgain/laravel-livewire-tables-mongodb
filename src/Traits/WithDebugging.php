@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\DebuggingConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\DebugHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\DebuggingConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\DebugHelpers;
 
 trait WithDebugging
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
 use MongoDB\Laravel\Eloquent\Builder;
 use Illuminate\Support\Str;
-use Rappasoft\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\ComponentConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\ComponentHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\ComponentConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\ComponentHelpers;
 
 trait ComponentUtilities
 {

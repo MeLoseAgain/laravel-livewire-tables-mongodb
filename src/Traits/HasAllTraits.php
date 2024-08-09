@@ -1,6 +1,6 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
 trait HasAllTraits
 {

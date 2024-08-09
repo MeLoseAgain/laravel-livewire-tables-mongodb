@@ -1,6 +1,6 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits\Configuration;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits\Configuration;
 
 trait ComponentColumnConfiguration
 {

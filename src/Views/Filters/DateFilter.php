@@ -1,10 +1,10 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Filters;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Filters;
 
 use DateTime;
-use Rappasoft\LaravelLivewireTables\Views\Filter;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Filters\{HasConfig, IsStringFilter};
+use KaitoSaikyo\LaravelLivewireTables\Views\Filter;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Filters\{HasConfig, IsStringFilter};
 
 class DateFilter extends Filter
 {

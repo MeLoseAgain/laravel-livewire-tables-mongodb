@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits\Configuration;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits\Configuration;
 
-use Rappasoft\LaravelLivewireTables\DataTableComponent;
-use Rappasoft\LaravelLivewireTables\Views\Column;
+use KaitoSaikyo\LaravelLivewireTables\DataTableComponent;
+use KaitoSaikyo\LaravelLivewireTables\Views\Column;
 
 trait ColumnConfiguration
 {

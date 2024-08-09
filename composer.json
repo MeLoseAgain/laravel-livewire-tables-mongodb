@@ -1,5 +1,5 @@
 {
-    "name": "dndarksan/laravel-livewire-tables-mongodb",
+    "name": "kaitosaikyo/laravel-livewire-tables-mongodb",
     "description": "A dynamic table component for Laravel Livewire",
     "keywords": [
         "rappasoft",
@@ -9,7 +9,7 @@
         "laravel",
         "mongodb"
     ],
-    "homepage": "https://github.com/dndarksan/laravel-livewire-tables-mongodb",
+    "homepage": "https://github.com/MeloseAgain/laravel-livewire-tables-mongodb",
     "license": "MIT",
     "authors": [
         {
@@ -18,8 +18,8 @@
             "role": "Developer"
         },
         {
-            "name": "Luis Chavez",
-            "email": "dndarksan@gmail.com",
+            "name": "MeLoseAgain",
+            "email": "petotgaming999@gmail.com",
             "role": "Developer (Fork Editor)"
         }
     ],
@@ -43,12 +43,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Rappasoft\\LaravelLivewireTables\\": "src"
+            "KaitoSaikyo\\LaravelLivewireTables\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rappasoft\\LaravelLivewireTables\\Tests\\": "tests"
+            "KaitoSaikyo\\LaravelLivewireTables\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -63,7 +63,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rappasoft\\LaravelLivewireTables\\LaravelLivewireTablesServiceProvider"
+                "KaitoSaikyo\\LaravelLivewireTables\\LaravelLivewireTablesServiceProvider"
             ]
         }
     },

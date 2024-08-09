@@ -1,8 +1,8 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits\Configuration;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits\Configuration;
 
-use Rappasoft\LaravelLivewireTables\Views\Column;
+use KaitoSaikyo\LaravelLivewireTables\Views\Column;
 
 trait ColumnSelectConfiguration
 {

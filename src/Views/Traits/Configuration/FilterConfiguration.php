@@ -1,8 +1,8 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits\Configuration;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits\Configuration;
 
-use Rappasoft\LaravelLivewireTables\Views\Filter;
+use KaitoSaikyo\LaravelLivewireTables\Views\Filter;
 
 trait FilterConfiguration
 {

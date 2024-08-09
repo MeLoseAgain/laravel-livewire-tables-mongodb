@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\ConfigurableAreasConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\ConfigurableAreasHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\ConfigurableAreasConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\ConfigurableAreasHelpers;
 
 trait WithConfigurableAreas
 {

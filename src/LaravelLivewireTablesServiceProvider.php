@@ -1,13 +1,13 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables;
+namespace KaitoSaikyo\LaravelLivewireTables;
 
 use Illuminate\Foundation\Console\AboutCommand;
 use Illuminate\Support\ServiceProvider;
 use Livewire\ComponentHookRegistry;
-use Rappasoft\LaravelLivewireTables\Commands\MakeCommand;
-use Rappasoft\LaravelLivewireTables\Features\AutoInjectRappasoftAssets;
-use Rappasoft\LaravelLivewireTables\Mechanisms\RappasoftFrontendAssets;
+use KaitoSaikyo\LaravelLivewireTables\Commands\MakeCommand;
+use KaitoSaikyo\LaravelLivewireTables\Features\AutoInjectRappasoftAssets;
+use KaitoSaikyo\LaravelLivewireTables\Mechanisms\RappasoftFrontendAssets;
 
 class LaravelLivewireTablesServiceProvider extends ServiceProvider
 {

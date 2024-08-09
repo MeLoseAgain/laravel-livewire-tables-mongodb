@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables;
+namespace KaitoSaikyo\LaravelLivewireTables;
 
 use Livewire\Component;
-use Rappasoft\LaravelLivewireTables\Traits\HasAllTraits;
+use KaitoSaikyo\LaravelLivewireTables\Traits\HasAllTraits;
 
 abstract class DataTableComponent extends Component
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Columns;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Columns;
 
 use Illuminate\Database\Eloquent\Model;
-use Rappasoft\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
-use Rappasoft\LaravelLivewireTables\Views\Column;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Columns\HasDefaultStringValue;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Configuration\ColorColumnConfiguration;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Helpers\ColorColumnHelpers;
-use Rappasoft\LaravelLivewireTables\Views\Traits\IsColumn;
+use KaitoSaikyo\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
+use KaitoSaikyo\LaravelLivewireTables\Views\Column;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Columns\HasDefaultStringValue;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Configuration\ColorColumnConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Helpers\ColorColumnHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\IsColumn;
 
 class ColorColumn extends Column
 {

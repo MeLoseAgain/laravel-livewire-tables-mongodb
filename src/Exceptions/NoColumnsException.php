@@ -1,6 +1,6 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Exceptions;
+namespace KaitoSaikyo\LaravelLivewireTables\Exceptions;
 
 class NoColumnsException extends \Exception
 {

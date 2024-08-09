@@ -1,15 +1,15 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits\Helpers;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits\Helpers;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\Str;
-use Rappasoft\LaravelLivewireTables\DataTableComponent;
-use Rappasoft\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
-use Rappasoft\LaravelLivewireTables\Views\Column;
-use Rappasoft\LaravelLivewireTables\Views\Columns\LinkColumn;
-use Rappasoft\LaravelLivewireTables\Views\Filter;
+use KaitoSaikyo\LaravelLivewireTables\DataTableComponent;
+use KaitoSaikyo\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
+use KaitoSaikyo\LaravelLivewireTables\Views\Column;
+use KaitoSaikyo\LaravelLivewireTables\Views\Columns\LinkColumn;
+use KaitoSaikyo\LaravelLivewireTables\Views\Filter;
 
 trait ColumnHelpers
 {

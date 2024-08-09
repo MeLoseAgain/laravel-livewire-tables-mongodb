@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\ReorderingConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\ReorderingHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\ReorderingConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\ReorderingHelpers;
 
 trait WithReordering
 {

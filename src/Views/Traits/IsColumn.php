@@ -1,12 +1,12 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits;
 
-use Rappasoft\LaravelLivewireTables\DataTableComponent;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Columns\{HasVisibility, IsCollapsible, IsSearchable, IsSelectable, IsSortable};
-use Rappasoft\LaravelLivewireTables\Views\Traits\Configuration\ColumnConfiguration;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Core\{HasAttributes,HasFooter,HasSecondaryHeader,HasView};
-use Rappasoft\LaravelLivewireTables\Views\Traits\Helpers\{ColumnHelpers,RelationshipHelpers};
+use KaitoSaikyo\LaravelLivewireTables\DataTableComponent;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Columns\{HasVisibility, IsCollapsible, IsSearchable, IsSelectable, IsSortable};
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Configuration\ColumnConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Core\{HasAttributes,HasFooter,HasSecondaryHeader,HasView};
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Helpers\{ColumnHelpers,RelationshipHelpers};
 
 trait IsColumn
 {

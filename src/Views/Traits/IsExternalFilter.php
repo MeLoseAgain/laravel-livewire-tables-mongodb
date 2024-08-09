@@ -1,6 +1,6 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits;
 
 use Livewire\Attributes\Modelable;
 

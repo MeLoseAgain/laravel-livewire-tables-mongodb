@@ -1,10 +1,10 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
 use MongoDB\Laravel\Eloquent\Builder;
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\SearchConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\SearchHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\SearchConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\SearchHelpers;
 
 trait WithSearch
 {

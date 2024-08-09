@@ -1,8 +1,8 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits\Columns;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits\Columns;
 
-use Rappasoft\LaravelLivewireTables\Views\Column;
+use KaitoSaikyo\LaravelLivewireTables\Views\Column;
 
 trait HasVisibility
 {

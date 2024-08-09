@@ -1,6 +1,6 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits\Mechanisms;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits\Mechanisms;
 
 use Livewire\Drawer\Utils;
 
@@ -38,7 +38,7 @@ trait WithRappasoftTableScripts
      */
     public static function rappasoftTableScripts(mixed $expression): string
     {
-        return '{!! \Rappasoft\LaravelLivewireTables\Mechanisms\RappasoftFrontendAssets::tableScripts('.$expression.') !!}';
+        return '{!! \KaitoSaikyo\LaravelLivewireTables\Mechanisms\RappasoftFrontendAssets::tableScripts('.$expression.') !!}';
     }
 
     public static function tableScripts(array $options = []): ?string

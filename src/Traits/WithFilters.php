@@ -1,10 +1,10 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
 use MongoDB\Laravel\Eloquent\Builder;
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\FilterConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\FilterHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\FilterConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\FilterHelpers;
 
 trait WithFilters
 {

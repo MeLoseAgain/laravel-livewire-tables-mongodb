@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Filters;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Filters;
 
-use Rappasoft\LaravelLivewireTables\Views\Filter;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Filters\{HasConfig,HasOptions};
+use KaitoSaikyo\LaravelLivewireTables\Views\Filter;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Filters\{HasConfig,HasOptions};
 
 class DateRangeFilter extends Filter
 {

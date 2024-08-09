@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits\Core;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits\Core;
 
 use Closure;
-use Rappasoft\LaravelLivewireTables\Views\{Column,Filter};
+use KaitoSaikyo\LaravelLivewireTables\Views\{Column,Filter};
 
 trait HasCallback
 {

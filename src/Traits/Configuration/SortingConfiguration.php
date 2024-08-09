@@ -1,6 +1,6 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits\Configuration;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits\Configuration;
 
 trait SortingConfiguration
 {

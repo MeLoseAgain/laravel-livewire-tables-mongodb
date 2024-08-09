@@ -1,6 +1,6 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits\Helpers;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits\Helpers;
 
 use Illuminate\Support\Collection;
 

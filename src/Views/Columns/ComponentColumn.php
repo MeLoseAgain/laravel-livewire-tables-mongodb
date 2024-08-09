@@ -1,14 +1,14 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Columns;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Columns;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\HtmlString;
 use Illuminate\View\ComponentAttributeBag;
-use Rappasoft\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
-use Rappasoft\LaravelLivewireTables\Views\Column;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Configuration\ComponentColumnConfiguration;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Helpers\ComponentColumnHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
+use KaitoSaikyo\LaravelLivewireTables\Views\Column;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Configuration\ComponentColumnConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Helpers\ComponentColumnHelpers;
 
 class ComponentColumn extends Column
 {

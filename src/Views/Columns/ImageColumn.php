@@ -1,13 +1,13 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Columns;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Columns;
 
 use Illuminate\Database\Eloquent\Model;
-use Rappasoft\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
-use Rappasoft\LaravelLivewireTables\Views\Column;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Configuration\ImageColumnConfiguration;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Core\HasLocationCallback;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Helpers\ImageColumnHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
+use KaitoSaikyo\LaravelLivewireTables\Views\Column;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Configuration\ImageColumnConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Core\HasLocationCallback;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Helpers\ImageColumnHelpers;
 
 class ImageColumn extends Column
 {

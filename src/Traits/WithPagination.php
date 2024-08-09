@@ -1,10 +1,10 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
 use Livewire\WithPagination as LivewirePagination;
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\PaginationConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\PaginationHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\PaginationConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\PaginationHelpers;
 
 trait WithPagination
 {

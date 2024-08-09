@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\FooterConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\FooterHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\FooterConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\FooterHelpers;
 
 trait WithFooter
 {

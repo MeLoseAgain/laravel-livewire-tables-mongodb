@@ -1,10 +1,10 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
 use Livewire\Attributes\Locked;
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\QueryStringConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\QueryStringHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\QueryStringConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\QueryStringHelpers;
 
 trait WithQueryString
 {

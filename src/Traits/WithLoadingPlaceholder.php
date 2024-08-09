@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\LoadingPlaceholderConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\LoadingPlaceholderHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\LoadingPlaceholderConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\LoadingPlaceholderHelpers;
 
 trait WithLoadingPlaceholder
 {

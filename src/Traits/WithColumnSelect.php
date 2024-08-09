@@ -1,11 +1,11 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
-use Rappasoft\LaravelLivewireTables\Events\ColumnsSelected;
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\ColumnSelectConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\ColumnSelectHelpers;
-use Rappasoft\LaravelLivewireTables\Views\Column;
+use KaitoSaikyo\LaravelLivewireTables\Events\ColumnsSelected;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\ColumnSelectConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\ColumnSelectHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Views\Column;
 
 trait WithColumnSelect
 {

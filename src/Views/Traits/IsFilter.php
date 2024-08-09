@@ -1,11 +1,11 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits;
 
-use Rappasoft\LaravelLivewireTables\Views\Traits\Configuration\FilterConfiguration;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Core\{HasConfig,HasView};
-use Rappasoft\LaravelLivewireTables\Views\Traits\Filters\{HasCustomPosition,HasVisibility};
-use Rappasoft\LaravelLivewireTables\Views\Traits\Helpers\FilterHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Configuration\FilterConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Core\{HasConfig,HasView};
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Filters\{HasCustomPosition,HasVisibility};
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Helpers\FilterHelpers;
 
 trait IsFilter
 {

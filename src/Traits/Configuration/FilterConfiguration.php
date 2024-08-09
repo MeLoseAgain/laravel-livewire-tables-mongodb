@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits\Configuration;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits\Configuration;
 
-use Rappasoft\LaravelLivewireTables\DataTransferObjects\FilterGenericData;
-use Rappasoft\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
+use KaitoSaikyo\LaravelLivewireTables\DataTransferObjects\FilterGenericData;
+use KaitoSaikyo\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
 
 trait FilterConfiguration
 {

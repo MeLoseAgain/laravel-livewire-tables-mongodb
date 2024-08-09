@@ -1,14 +1,14 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Mechanisms;
+namespace KaitoSaikyo\LaravelLivewireTables\Mechanisms;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Route;
 use Livewire\Drawer\Utils;
-use Rappasoft\LaravelLivewireTables\Traits\Mechanisms\WithRappasoftTableScripts;
-use Rappasoft\LaravelLivewireTables\Traits\Mechanisms\WithRappasoftTableStyles;
-use Rappasoft\LaravelLivewireTables\Traits\Mechanisms\WithRappasoftTableThirdPartyScripts;
-use Rappasoft\LaravelLivewireTables\Traits\Mechanisms\WithRappasoftTableThirdPartyStyles;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Mechanisms\WithRappasoftTableScripts;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Mechanisms\WithRappasoftTableStyles;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Mechanisms\WithRappasoftTableThirdPartyScripts;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Mechanisms\WithRappasoftTableThirdPartyStyles;
 
 class RappasoftFrontendAssets
 {

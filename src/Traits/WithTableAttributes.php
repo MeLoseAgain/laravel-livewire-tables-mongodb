@@ -1,10 +1,10 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
 use Closure;
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\TableAttributeConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\TableAttributeHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\TableAttributeConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\TableAttributeHelpers;
 
 trait WithTableAttributes
 {

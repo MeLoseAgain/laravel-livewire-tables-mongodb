@@ -1,8 +1,8 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits\Helpers;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits\Helpers;
 
-use Rappasoft\LaravelLivewireTables\Views\Columns\LinkColumn;
+use KaitoSaikyo\LaravelLivewireTables\Views\Columns\LinkColumn;
 
 trait ButtonGroupColumnHelpers
 {

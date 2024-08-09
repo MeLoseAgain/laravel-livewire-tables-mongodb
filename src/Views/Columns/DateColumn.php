@@ -1,14 +1,14 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Columns;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Columns;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\HtmlString;
-use Rappasoft\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
-use Rappasoft\LaravelLivewireTables\Views\Column;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Configuration\DateColumnConfiguration;
-use Rappasoft\LaravelLivewireTables\Views\Traits\Helpers\DateColumnHelpers;
-use Rappasoft\LaravelLivewireTables\Views\Traits\IsColumn;
+use KaitoSaikyo\LaravelLivewireTables\Exceptions\DataTableConfigurationException;
+use KaitoSaikyo\LaravelLivewireTables\Views\Column;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Configuration\DateColumnConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\Helpers\DateColumnHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\IsColumn;
 
 class DateColumn extends Column
 {

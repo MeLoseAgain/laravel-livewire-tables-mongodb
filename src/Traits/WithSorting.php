@@ -1,11 +1,11 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
 use MongoDB\Laravel\Eloquent\Builder;
 use Illuminate\Support\Collection;
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\SortingConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\SortingHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\SortingConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\SortingHelpers;
 
 trait WithSorting
 {

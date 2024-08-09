@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\BulkActionsConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\BulkActionsHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\BulkActionsConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\BulkActionsHelpers;
 
 trait WithBulkActions
 {

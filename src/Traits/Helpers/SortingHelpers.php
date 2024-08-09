@@ -1,6 +1,6 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits\Helpers;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits\Helpers;
 
 use Livewire\Attributes\On;
 

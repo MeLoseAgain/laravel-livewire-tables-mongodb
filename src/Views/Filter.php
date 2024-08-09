@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views;
+namespace KaitoSaikyo\LaravelLivewireTables\Views;
 
 use Illuminate\Support\Str;
-use Rappasoft\LaravelLivewireTables\Views\Traits\IsFilter;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\IsFilter;
 
 abstract class Filter
 {

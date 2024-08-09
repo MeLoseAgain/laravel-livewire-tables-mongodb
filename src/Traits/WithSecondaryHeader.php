@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits;
 
-use Rappasoft\LaravelLivewireTables\Traits\Configuration\SecondaryHeaderConfiguration;
-use Rappasoft\LaravelLivewireTables\Traits\Helpers\SecondaryHeaderHelpers;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Configuration\SecondaryHeaderConfiguration;
+use KaitoSaikyo\LaravelLivewireTables\Traits\Helpers\SecondaryHeaderHelpers;
 
 trait WithSecondaryHeader
 {

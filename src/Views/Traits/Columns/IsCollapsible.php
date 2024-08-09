@@ -1,10 +1,10 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits\Columns;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits\Columns;
 
 use Closure;
 use Illuminate\View\ComponentAttributeBag;
-use Rappasoft\LaravelLivewireTables\Views\{Column,Filter};
+use KaitoSaikyo\LaravelLivewireTables\Views\{Column,Filter};
 
 trait IsCollapsible
 {

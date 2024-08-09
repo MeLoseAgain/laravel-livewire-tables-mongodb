@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views;
+namespace KaitoSaikyo\LaravelLivewireTables\Views;
 
 use Illuminate\Support\Str;
-use Rappasoft\LaravelLivewireTables\Views\Traits\IsColumn;
+use KaitoSaikyo\LaravelLivewireTables\Views\Traits\IsColumn;
 
 class Column
 {

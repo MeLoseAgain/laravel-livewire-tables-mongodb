@@ -1,8 +1,8 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits\Helpers;
+namespace KaitoSaikyo\LaravelLivewireTables\Traits\Helpers;
 
-use Rappasoft\LaravelLivewireTables\Views\Column;
+use KaitoSaikyo\LaravelLivewireTables\Views\Column;
 
 trait SecondaryHeaderHelpers
 {

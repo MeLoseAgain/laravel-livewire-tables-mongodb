@@ -1,10 +1,10 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Features;
+namespace KaitoSaikyo\LaravelLivewireTables\Features;
 
 use Illuminate\Foundation\Http\Events\RequestHandled;
 use Livewire\ComponentHook;
-use Rappasoft\LaravelLivewireTables\Mechanisms\RappasoftFrontendAssets;
+use KaitoSaikyo\LaravelLivewireTables\Mechanisms\RappasoftFrontendAssets;
 
 use function Livewire\on;
 

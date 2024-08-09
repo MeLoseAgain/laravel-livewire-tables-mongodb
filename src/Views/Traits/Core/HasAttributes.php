@@ -1,11 +1,11 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Traits\Core;
+namespace KaitoSaikyo\LaravelLivewireTables\Views\Traits\Core;
 
 use Closure;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\View\ComponentAttributeBag;
-use Rappasoft\LaravelLivewireTables\Views\{Column,Filter};
+use KaitoSaikyo\LaravelLivewireTables\Views\{Column,Filter};
 
 trait HasAttributes
 {
